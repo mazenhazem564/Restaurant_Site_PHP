@@ -1,0 +1,121 @@
+<html>
+
+<head>
+<meta name="viewport" content = "width=device-width , initial-scale = 1">
+<link href="maindish.css" rel="stylesheet" />
+<script>
+
+function change_col1(new_col1)
+
+{
+document.getElementById('steak').style.backgroundColor = new_col1;
+}
+function change_col2(new_col2)
+
+{
+document.getElementById('chicken').style.backgroundColor = new_col2;
+}
+function change_col3(new_col3)
+
+{
+document.getElementById('las').style.backgroundColor = new_col3;
+}
+function change_col4(new_col4)
+
+{
+document.getElementById('fish').style.backgroundColor = new_col4;
+}
+function change_col5(new_col5)
+
+{
+document.getElementById('goul').style.backgroundColor = new_col5;
+}
+function change_col6(new_col6)
+
+{
+document.getElementById('burger').style.backgroundColor = new_col6;
+}
+</script>
+</head>
+
+
+<body>
+
+<table>
+<tr>
+<h1> Main Dishes </h1>
+</tr>
+
+<tr>
+
+<td>
+<img  id ="steak" src="steak2.jpg" onmouseover='change_col1("red")' onmouseout='change_col1("")'/>
+
+</td>
+<td>
+<img id ="chicken" src="chicken22.jpg" onmouseover='change_col2("red")' onmouseout='change_col2("")'/>
+</td>
+<td>
+<img  id ="las" src="lasgn.jpg" onmouseover='change_col3("red")' onmouseout='change_col3("")'/>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<p> 50 EGP</p>
+</td>
+<td>
+<p>  30 EGP</p>
+</td>
+<td>
+<p>  25 EGP</p>
+</td>
+
+</tr>
+
+<tr>
+<td>
+<img id ="fish" src="fish.jpg" onmouseover='change_col4("red")' onmouseout='change_col4("")'/>
+</td>
+<td>
+<img id = "goul" src="goulash.jpg" onmouseover='change_col5("red")' onmouseout='change_col5("")'/>
+</td>
+<td>
+<img id ="burger" src="burger.jpg" onmouseover='change_col6("red")' onmouseout='change_col6("")'/>
+</td>
+</tr>
+<tr>
+
+<td>
+<p>  60 EGP</p>
+</td>
+<td>
+<p>  45 EGP</p>
+</td>
+<td>
+<p> 32 EGP</p>
+</td>
+
+</tr>
+<tr>
+<td>
+<a href="HomePage.php" class="btn">Home</a>
+  </td>
+  <td>
+  
+  </td>
+  <td>
+  <a href="desserts.html" class="btn">Desserts</a>
+  </td>
+  </tr>
+  
+</table>
+
+
+</body>
+
+
+
+</html>

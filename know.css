@@ -1,0 +1,29 @@
+p{
+	font-size:33px;
+	color:brown;
+}
+
+#grad2{ background:radial-gradient( deepskyblue , lightsteelblue,dodgerblue)}
+
+body
+{
+	background-color:gray;
+}
+iframe
+{
+	width:1000px;
+	height:700px;
+}
+img
+{
+	width:60px;
+	height:60px;
+}
+h1
+{
+	color:red;
+}
+h3
+{
+	color:red;
+}

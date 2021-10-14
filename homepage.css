@@ -1,0 +1,46 @@
+
+
+ #grad2{ background:linear-gradient( to right,#eecda3 , #ef629f)}
+ 
+ .button {
+	
+  background-color: pink;
+  border: none;
+  
+  font-size: 20px;
+   text-decoration: none;
+  color: black;
+ 
+  text-align: center;
+  padding: 20px 35px;
+  margin :37px 37px;
+  display: inline-block;
+ 
+  cursor: pointer;
+}
+img {
+  width:1250px;
+  height:400px;
+  
+  
+}
+.cont{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.btm-left {
+	 /*border: 3px solid pink;*/
+	font-size:30px;
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
+
+#coat
+{
+    color: white;
+}
+

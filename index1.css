@@ -1,0 +1,19 @@
+
+ #grad3{ background:linear-gradient( to right,#cc2b5e , #753a88)}
+a{
+  
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:150px;
+  margin:50px;
+}
+h1
+{
+	
+	text-align:center;
+	font-size:75px;
+	color:blue;
+}
+

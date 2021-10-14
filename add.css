@@ -1,0 +1,119 @@
+body
+{
+    background: url(Add.jpg);
+    background-size: cover;   
+}
+
+.logo
+{
+   
+    width: 120px;
+    height: 100px;
+	top:37px;
+    position: absolute;
+    psotion: top-left;
+    
+}
+
+.box
+{
+    width: 600px;
+    height: 630px;
+    background: aqua;
+    color: black;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+}
+.box h1
+{
+    margin: 0;
+    font-size: 40;
+    padding: 30 21 20px;
+    text-align: center;
+}
+.box label
+{
+    color: black;
+    margin: 0;
+    padding: 5 6 0;
+    font-size: 20;
+    font-weight: bold;   
+}
+.box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.emailandpass
+{
+    border:none;
+    border-bottom: 1px solid crimson;
+    background: transparent;
+    outline: none;
+    height: 45px;
+    color: darkgreen;
+    font-size: 16px;
+}
+
+.box input[type="submit"]
+{
+    
+    outline: none;  
+   height: 30px;
+    background: blue;
+    
+    color: #fff;
+    font-size: 18px;
+    border-radius: 500px;
+}
+.box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: brown;
+  
+}
+.box input[type="button"] 
+{
+   
+     border: none;
+    outline: none;  
+   height: 30px;
+    background: crimson;
+    color: white;
+    font-size: 18px;
+    border-radius: 35px;
+}
+
+.box input[type="button"]:hover
+{
+        cursor: pointer;
+           
+            background: blue; 
+          
+            
+}
+#guest
+{
+   
+     border: none;
+    outline: none;  
+   height: 30px;
+    background: chartreuse;
+    color: black;
+    font-size: 18px;
+    border-radius: 35px;
+}
+
+#guest:hover
+{
+        cursor: pointer;
+           
+            background: deeppink; 
+            
+            
+            
+}
